@@ -15,7 +15,7 @@ const appRoutes : Routes = [
   {path : '',component:PropertyListComponent},
   {path : 'add-property',component:AddPropertyComponent},
   {path : 'rent-property',component:AddPropertyComponent},
-  {path : 'property-detail',component:AddPropertyComponent},
+  {path : 'property-detail/:id',component:PropertyDetailComponent},
 
 ]
 
